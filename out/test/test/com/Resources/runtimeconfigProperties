@@ -1,0 +1,3 @@
+browser = chrome
+testEnv = https://iris4.nrs-uk.co.uk/Authentication/Login.aspx
+password = pres1

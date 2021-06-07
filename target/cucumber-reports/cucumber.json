@@ -1,0 +1,115 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-07T10:11:23.262Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10971000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.TestBase.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3154274700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.TestBase.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 445297100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.TestBase.launchURL()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Validate server errors and broken links in icon application",
+        "description": "",
+        "id": "validating-the-broken-links-in-icon-application;validate-server-errors-and-broken-links-in-icon-application",
+        "after": [
+          {
+            "result": {
+              "duration": 1993400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.TestBase.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 988700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.TestBase.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1167874500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user logins using the iconpinid \"demo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"demo\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepdefination.CommonFunctions_SD.userLoginsUsingTheIconpinid(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17810275000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Validate broken links in the page",
+            "match": {
+              "location": "stepdefination.CommonFunctions_SD.validateBrokenLinksInThePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44879000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Log out to the application",
+            "match": {
+              "location": "stepdefination.CommonFunctions_SD.logOutToTheApplication()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "validating the Broken Links in icon Application",
+    "description": "",
+    "id": "validating-the-broken-links-in-icon-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/Resources/features/iConBrokenLinks.feature",
+    "tags": []
+  }
+]

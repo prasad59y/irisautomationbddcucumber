@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="23.499">
+    <testcase classname="validating the Broken Links in icon Application" name="Validate server errors and broken links in icon application" time="22.996">
+        <system-out><![CDATA[Given user logins using the iconpinid "demo"................................passed
+Then Validate broken links in the page......................................passed
+And Log out to the application..............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

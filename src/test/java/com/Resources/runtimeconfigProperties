@@ -1,0 +1,15 @@
+browser = chrome
+testEnv = https://training-iris4.nrs-uk.co.uk/Authentication/Login.aspx
+//testEnv = https://iris4.nrs-uk.co.uk/Authentication/Login.aspx
+//testEnv = https://icon3.nrs-uk.co.uk/login.aspx
+//https://qas-icon3.nrs-uk.co.uk/Administration.aspx
+password = pres1
+autpassword = auth1
+createOrderPageTitle = Create Order
+landingHomePageHeading = Edit your home page.
+orderpageCreation= Order Confirmation
+createNewclientPageTitle = Service User
+authoisationpagetitle= Orders For Me To Authorise
+landingauthHomePageHeading =Home page top section.
+createCareHomeOrderPageTitle = Create Care Home Order
+password1 = Converse2
